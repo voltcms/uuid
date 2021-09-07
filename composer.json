@@ -1,0 +1,26 @@
+{
+    "name": "pragmaphp/uuid",
+    "description": "PHP UUID Generator",
+    "type": "library",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Jannis Rondorf",
+            "email": "github@jrondorf.de"
+        }
+    ],
+    "require": {
+        "php": "^7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "PragmaPHP\\Uuid\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
