@@ -8,10 +8,9 @@ namespace PragmaPHP\Uuid;
 class Uuid {
 
     /**
-    * @param    int     Time in milliseconds (optional). E.g. round(microtime(true) * 1000)
     * @return   string  Unique ID
     */
-    public static function generate($millis = 0): string {
+    public static function generate(): string {
         $data = random_bytes(16);
         assert(strlen($data) == 16);
         // Set version to 0100
