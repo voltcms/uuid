@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaPHP\Uuid;
+namespace VoltCMS\Uuid;
 
 /**
 * PHP UUID Generator

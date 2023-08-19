@@ -1,7 +1,7 @@
 <?php
 
 use \PHPUnit\Framework\TestCase;
-use \PragmaPHP\Uuid\Uuid;
+use \VoltCMS\Uuid\Uuid;
 
 class UuidTest extends TestCase {
 
